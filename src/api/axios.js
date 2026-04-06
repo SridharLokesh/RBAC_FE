@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://rbac-be-two.vercel.app/",
+  baseURL: "https://rbac-be-two.vercel.app/api",
 });
 
 // Attach token to every request automatically
